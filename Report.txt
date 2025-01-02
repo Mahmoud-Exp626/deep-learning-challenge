@@ -1,0 +1,34 @@
+Model Overview
+The model under review has been evaluated on a dataset and has produced the following performance metrics:
+
+Accuracy: 72.47%
+Loss: 0.5550
+These metrics indicate the model's effectiveness in classifying or predicting outcomes based on the input data.
+
+Performance Metrics
+Accuracy:The model achieved an accuracy of 72.47%. This means that approximately 72.47% of the predictions made by the model were correct. While this accuracy indicates a reasonable level of performance, it may not be sufficient depending on the specific application or domain. For many real-world tasks, especially in critical fields like healthcare or finance, higher accuracy may be necessary.
+
+Loss:The loss value of 0.5550 quantifies how well the model's predictions align with the actual outcomes. A lower loss value generally indicates better model performance. In this case, the loss is moderate, suggesting that there is room for improvement in the model's predictive capabilities.
+
+Data Preprocessing
+
+What variable(s) are the target(s) for your model? 
+- "IS_SUCCESSFUL" is the target for our model. 
+What variable(s) are the features for your model? 
+- APPLICATION_TYPE, AFFILIATION,	CLASSIFICATION,	USE_CASE,	ORGANIZATION,	STATUS,	INCOME_AMT,	SPECIAL_CONSIDERATIONS,	ASK_AMT,	IS_SUCCESSFUL, are the features for our model. 
+What variable(s) should be removed from the input data because they are neither targets nor features? 
+- "EIN" and "NAME" should be removed.
+
+Compiling, Training, and Evaluating the Model
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why? 
+- A total of five layers, four hidden nodes, and five activation functions were added before completing my challenge. 
+Were you able to achieve the target model performance? 
+- No, my last try reached a rate of 0.7256 for accuracy and 0.5588 for loss.
+What steps did you take in your attempts to increase model performance? 
+Added extra layers and manipulated the columns. I would consider using Feature Importance from Models to train this model and use its feature importance scores to decide which columns to keep. This will help preserve important columns with will help achieve a more accurate score. 
+
+Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+- The model has demonstrated a reasonable level of accuracy and loss, indicating it has the potential to be effective for the task at hand. However, further optimization and tuning are recommended to improve its performance, particularly if it is to be deployed in a real-world application where higher accuracy is critical.
+
+
